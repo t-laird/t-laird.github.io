@@ -10,6 +10,7 @@ const Header = (props) => {
         <span>Thomas Laird</span>
         <span>Software Developer</span>
       </h1>
+      <span className="apology"><i className="icon-traffic-cone"></i>Please forgive the last of responsive design as I continue to develop this website!<i className="icon-traffic-cone"></i></span>
       <nav>
         <ul>
           <li><NavLink exact to="/">Home</NavLink></li>
