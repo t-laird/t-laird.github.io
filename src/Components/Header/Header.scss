@@ -25,6 +25,16 @@ header {
     }
   }
 
+  span.apology {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    color: white;
+    background: #E11246;
+    padding: 10px;
+    font-size: 12px;
+  }
+
   nav {
     ul {
       display: flex;
