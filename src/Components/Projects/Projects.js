@@ -24,10 +24,12 @@ const Projects = (props) => {
           <li>Express</li>
           <li>PostgreSQL</li>        
         </ul>
-        <a 
-          href="https://t-laird.com/snap-ninja" 
-          target="_blank" 
-          rel="noopener noreferrer">Live Version</a>
+        <div className="buttonContainer">
+          <a 
+            href="https://t-laird.com/snap-ninja" 
+            target="_blank" 
+            rel="noopener noreferrer">Live Version</a>
+        </div>
       </div>
     </div>
   );
