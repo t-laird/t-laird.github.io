@@ -9,8 +9,15 @@
   margin: 0px auto;
   padding: 0px 50px;
   main {
+    display: flex;
     width: 100%;
     box-sizing: border-box;
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .App {
+    padding: 0px 30px;
   }
 }
