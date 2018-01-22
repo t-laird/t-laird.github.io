@@ -41,6 +41,18 @@
       "css": "traffic-cone",
       "code": 59406,
       "src": "entypo"
+    },
+    {
+      "uid": "37910a1398001a5ccb541cb2a253a2c7",
+      "css": "right-open",
+      "code": 61446,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "d9be617b7f2fe7843118ca2d3a1b8cca",
+      "css": "down-open",
+      "code": 61444,
+      "src": "mfglabs"
     }
   ]
 }

@@ -1,0 +1,168 @@
+.projectDiv {
+
+  h2 {
+    font-size: 50px;
+    transition: 0.5s;    
+    cursor: pointer;
+    &:hover {
+      color: #E11246;   
+    }
+    i {
+      &:before {
+        transition: 0.5s;
+      }
+      &.rotate {
+        &:before {
+          transform: rotate(90deg);
+        }
+      }
+      &:hover {
+        transform: rotate(90deg);
+      }
+    }
+  }
+  .info-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 0px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: 1.5s;
+    opacity: 0;
+    &.expanded {
+      height: initial;
+      max-height: initial;
+      padding-bottom: 80px;
+      opacity: 1;
+    }
+    img {
+      width: 100%;
+    }
+    .screenshot {
+      width: 100%;
+      position: relative;
+      background-size: contain;
+      border: 2px solid white;
+      border-radius: 10px;
+      box-sizing: content-box;
+      padding: 0px;
+      a {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10;
+      }
+      &:before {
+        content: "";
+        display: block;
+      }
+    }
+
+    .screenshot.snap {
+      background-image: url('./ProjectScreenshots/snap-ninja.png');
+      &:before {
+        padding-top: 74.7126437%;  
+      }
+    }
+
+    .screenshot.swapi {
+      background-image: url('./ProjectScreenshots/swapi-box.png');
+      &:before {
+        padding-top: 56.39%;
+      }
+    }
+
+    .screenshot.centipede {
+      background-image: url('./ProjectScreenshots/game-time.png');
+      &:before {
+        padding-top: 76.8138801%;
+      }
+    }
+
+    .screenshot.headcount {
+      background-image: url('./ProjectScreenshots/headcount.png');
+      &:before {
+        padding-top: 74.765625%;
+      }
+    }
+
+    .ss-fake-content{
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+
+    h2 {
+      font-size: 50px;
+      text-align: center;
+    }
+    h3 {
+      font-size: 40px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-top: 10px;
+      width: 36em;
+      font-size: 18px;
+    }
+    .techStack {
+      padding: 0px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 36em;
+      margin-bottom: 60px;
+      margin-right: auto;
+      li {
+        width: 50%;
+        list-style: none;
+        font-size: 40px;
+        color: #E11246;
+      }
+    }
+
+    .buttonContainer {
+      width: 100%;
+      a {
+        text-decoration: none;
+        margin-top: 30px;
+        color: white;
+        background-color: #E11246;
+        padding: 20px;
+        border-radius: 5px;
+        transition: .2s;
+        &:hover {
+          color: #E11246;
+          background-color: white;
+        }
+      }
+    }
+
+    
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .Projects {
+    .projectDiv {
+      h2 {
+        font-size: 40px;
+      }
+      p {
+        width: 100%;
+      }
+
+      .techStack {
+        width: 100%;
+        li {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
