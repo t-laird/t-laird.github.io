@@ -26,7 +26,7 @@ const Projects = (props) => {
       description: 'Centipede was built using HTML canvas and ES6 and is modeled off of the 1980 Atari, Inc game. Our version of Centipede was carefully constructed to preserve as much of the functionality and behavior of the original game as possible.',
       features: 'Centipede utilizes a 2d HTML canvas and is bundled with webpack.',
       techStack: ['HTML Canvas', 'ES6', 'Webpack'],
-      link: 'https://t-laird.com/game-time',
+      link: 'https://t-laird.com/Centipede',
       aspectRatioOfsetClass: 'centipede'
     },
     {
@@ -47,7 +47,7 @@ const Projects = (props) => {
         <h2>Quick Links: </h2>
         <div className="quicklink"><a href="https://t-laird.com/snap-ninja" target="_blank" rel="noopener noreferrer">Snap Ninja<i className="icon-link-ext"></i></a></div>
         <div className="quicklink"><a href="https://t-laird.com/SWapiBox" target="_blank" rel="noopener noreferrer">SWapiBox<i className="icon-link-ext"></i></a></div>
-        <div className="quicklink"><a href="https://t-laird.com/game-time" target="_blank" rel="noopener noreferrer">Game Time<i className="icon-link-ext"></i></a></div>
+        <div className="quicklink"><a href="https://t-laird.com/Centipede" target="_blank" rel="noopener noreferrer">Game Time<i className="icon-link-ext"></i></a></div>
         <div className="quicklink"><a href="https://t-laird.com/Headcount" target="_blank" rel="noopener noreferrer">Headcount<i className="icon-link-ext"></i></a></div>
       </div>
       {projectInfo.map( (project, index) => <Project key={`project${index}`} {...project} /> )}
