@@ -8,7 +8,6 @@ import './Routes.css';
 
 
 const Routes = (props) => {
-  console.log(props);
   return (
     <main>
       <TransitionGroup className="switch-routes">
