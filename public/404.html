@@ -26,14 +26,11 @@
       var segmentCount = 0;
 
       var l = window.location;
-      const nonHomeUrls = ['/snap-ninja', '/Headcount', '/game-time', '/comp-3', '/Centipede'];
+      const nonHomeUrls = ['/snap-ninja', '/Headcount', '/comp-3', '/Centipede'];
         for (let i = 0; i < nonHomeUrls.length; i++) {
           const urlRegex = new RegExp(nonHomeUrls[i], 'i');
           const verifyUrl = urlRegex.test(l.pathname);
-          console.log(verifyUrl);
-          if (verifyUrl) {
-            return;
-          } else {
+          if (!verifyUrl) {
             l.replace(
               l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
               l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
