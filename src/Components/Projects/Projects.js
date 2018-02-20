@@ -48,15 +48,18 @@ const Projects = (props) => {
 
   ];
 
+  const quicklinks = projectInfo.map(quicklink => {
+    return (
+      <div className="quicklink"><a href={quicklink.link} target="_blank" rel="noopener noreferrer">{quicklink.title}<i className="icon-link-ext"></i></a></div>
+    );
+  });
+
   return (
     <div className="Projects">
       <h1>Projects:</h1>
       <div className="quicklinks">
         <h2>Quick Links: </h2>
-        <div className="quicklink"><a href="https://t-laird.com/snap-ninja" target="_blank" rel="noopener noreferrer">Snap Ninja<i className="icon-link-ext"></i></a></div>
-        <div className="quicklink"><a href="https://t-laird.com/SWapiBox" target="_blank" rel="noopener noreferrer">SWapiBox<i className="icon-link-ext"></i></a></div>
-        <div className="quicklink"><a href="https://t-laird.com/Centipede" target="_blank" rel="noopener noreferrer">Game Time<i className="icon-link-ext"></i></a></div>
-        <div className="quicklink"><a href="https://t-laird.com/Headcount" target="_blank" rel="noopener noreferrer">Headcount<i className="icon-link-ext"></i></a></div>
+        {quicklinks}
       </div>
       {projectInfo.map( (project, index) => <Project key={`project${index}`} {...project} /> )}
     </div>
