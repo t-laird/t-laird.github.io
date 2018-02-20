@@ -4,13 +4,19 @@
     font-size: 60px;
     color: white;
     text-align: center;
+    a {
+      color: white;
+      &:hover {
+        color: #E11246;
+      }
+    }
   }
 }
 
 @media screen and (max-width: 600px) {
   .Blogs {
     h1 {
-      font-size: 40px;
+      font-size: 30px;
     }
   }
 }
