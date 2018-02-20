@@ -9,7 +9,7 @@ const Home = (props) => {
       <h4>I'm a developer looking for an opportunity where I can contribute meaningfully to an already awesome product or service!</h4>
       <div className="linkContainer">
         <Link to="/projects">Check Out My Projects</Link>
-        <a href="https://www.turing.io/sites/default/files/resumes/ThomasLaird.pdf" target="_blank" rel="noopener noreferrer">Look at my Resume<i className="icon-link-ext"></i></a>
+        <a href="https://www.turing.io/sites/default/files/resumes/ThomasLaird-Resume.pdf" target="_blank" rel="noopener noreferrer">Look at my Resume<i className="icon-link-ext"></i></a>
         <a href="https://www.github.com/t-laird" target="_blank" rel="noopener noreferrer">Visit my Github<i className="icon-link-ext"></i></a>
       </div>
     </div>

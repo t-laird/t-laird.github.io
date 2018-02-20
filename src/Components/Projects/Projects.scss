@@ -30,6 +30,13 @@
       justify-content: stretch;
       background: #E11246;
       border-radius: 10px;
+      transition: 0.3s;
+      &:hover {
+        background-color: white;
+        a {
+          color: #E11246;
+        }
+      }
       a {
         text-decoration: inherit;
         height: 100%;
