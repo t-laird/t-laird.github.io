@@ -36,6 +36,14 @@ const Projects = (props) => {
       techStack: ['React', 'Sparklines'],
       link: 'https://t-laird.com/Headcount',
       aspectRatioOfsetClass: 'headcount'
+    },
+    {
+      title: 'Static Composition',
+      description: 'This project was a challenge in recreating a challenging composition to a high level of detail',
+      features: 'This project utilizes vanilla HTML and CSS',
+      techStack: ['HTML', 'CSS', 'jQuery'],
+      link: 'https://t-laird.com/comp-3',
+      aspectRatioOfsetClass: 'comp3'
     }
 
   ];
