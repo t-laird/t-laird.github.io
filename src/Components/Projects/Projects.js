@@ -11,6 +11,7 @@ const Projects = (props) => {
       features: 'Snap Ninja features a customized backend built in express and with OAuth via AuthRocket. The frontend is built using React/Redux/Router, data visualization via VictoryJS and styled with SCSS.',
       techStack: ['React', 'Redux', 'Router', 'VictoryJS', 'Express', 'PostgreSQL' ],
       link: "https://t-laird.com/snap-ninja",
+      repo: "https://github.com/t-laird/snap-ninja",
       aspectRatioOfsetClass: 'snap'
     },
     {
@@ -19,6 +20,7 @@ const Projects = (props) => {
       features: 'SWapiBox is a single page application built using React and React Router.',
       techStack: ['React', 'Router', 'ES7 ASync/Await'],
       link: 'https://t-laird.com/SWapiBox',
+      repo: "https://github.com/t-laird/SWapiBox",
       aspectRatioOfsetClass: 'swapi'
     },
     {
@@ -27,6 +29,7 @@ const Projects = (props) => {
       features: 'Centipede utilizes a 2d HTML canvas and is bundled with webpack.',
       techStack: ['HTML Canvas', 'ES6', 'Webpack'],
       link: 'https://t-laird.com/Centipede',
+      repo: "https://github.com/t-laird/Centipede",
       aspectRatioOfsetClass: 'centipede'
     },
     {
@@ -35,6 +38,7 @@ const Projects = (props) => {
       features: 'Headcount is built using React with data visualization via Sparklines',
       techStack: ['React', 'Sparklines'],
       link: 'https://t-laird.com/Headcount',
+      repo: "https://github.com/t-laird/Headcount",
       aspectRatioOfsetClass: 'headcount'
     },
     {
@@ -43,7 +47,17 @@ const Projects = (props) => {
       features: 'This project utilizes vanilla HTML and CSS',
       techStack: ['HTML', 'CSS', 'jQuery'],
       link: 'https://t-laird.com/comp-3',
+      repo: "https://github.com/t-laird/comp-3/",
       aspectRatioOfsetClass: 'comp3'
+    },
+    {
+      title: 'T-Chat',
+      description: 'This project implements websockets via Socket.io on a React frontend to create a chat app.',
+      features: 'Websockets (Socket.io), React',
+      techStack: ['React', 'SCSS', 'Socket.io', 'Express', 'PostgreSQL'],
+      link: 'https://t-chat-t.herokuapp.com/',
+      repo: "https://github.com/t-laird/t-chat",
+      aspectRatioOfsetClass: 'tchat'
     }
 
   ];
