@@ -18,7 +18,7 @@ class Project extends Component {
   }
 
   render() {
-    const { title, description, features, techStack, link, aspectRatioOfsetClass } = this.props;
+    const { title, description, features, techStack, link, repo, aspectRatioOfsetClass } = this.props;
     const stackList = techStack.map((listItem, index) => <li key={`${title.trim()}${index}`}>{listItem}</li>);
     const iconClass = this.state.expanded ? 'icon-right-open rotate' : 'icon-right-open';
     const containerClass = this.state.expanded ? 'expanded' : '';
@@ -43,6 +43,10 @@ class Project extends Component {
               href={link} 
               target="_blank" 
               rel="noopener noreferrer">Live Version</a>
+            <a 
+              href={repo} 
+              target="_blank" 
+              rel="noopener noreferrer">Github Repo</a>
           </div>
         </div>
       </div>

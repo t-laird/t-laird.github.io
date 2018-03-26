@@ -96,6 +96,13 @@
       }
     }
 
+    .screenshot.tchat {
+      background-image: url('./ProjectScreenshots/t-chat.png');
+      &:before {
+        padding-top: 125.8156028%;
+      }
+    }
+
     .ss-fake-content{
       position: absolute;
       top: 0;
@@ -138,6 +145,7 @@
       a {
         text-decoration: none;
         margin-top: 30px;
+        margin-right: 20px; 
         color: white;
         background-color: #E11246;
         padding: 20px;

@@ -1,8 +1,9 @@
 {
-  "main.css": "static/css/main.9ff2db88.css",
-  "main.css.map": "static/css/main.9ff2db88.css.map",
-  "main.js": "static/js/main.423671bd.js",
-  "main.js.map": "static/js/main.423671bd.js.map",
+  "main.css": "static/css/main.9881f356.css",
+  "main.css.map": "static/css/main.9881f356.css.map",
+  "main.js": "static/js/main.b300bac4.js",
+  "main.js.map": "static/js/main.b300bac4.js.map",
+  "static/media/comp3.png": "static/media/comp3.8227bdf2.png",
   "static/media/game-time.png": "static/media/game-time.489d77b0.png",
   "static/media/headcount.png": "static/media/headcount.6ca123a8.png",
   "static/media/pwebsite.eot?41990623": "static/media/pwebsite.5203fe28.eot",
@@ -11,6 +12,7 @@
   "static/media/pwebsite.woff2?41990623": "static/media/pwebsite.24fc9b39.woff2",
   "static/media/pwebsite.woff?41990623": "static/media/pwebsite.b8be3436.woff",
   "static/media/snap-ninja.png": "static/media/snap-ninja.eab91ceb.png",
-  "static/media/stars3.jpeg": "static/media/stars3.152d8a42.jpeg",
-  "static/media/swapi-box.png": "static/media/swapi-box.94c16a22.png"
+  "static/media/stars.png": "static/media/stars.a842021e.png",
+  "static/media/swapi-box.png": "static/media/swapi-box.94c16a22.png",
+  "static/media/t-chat.png": "static/media/t-chat.beda0bcf.png"
 }
