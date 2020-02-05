@@ -1,16 +1,16 @@
 {
-  "main.css": "/static/css/main.fe59a66e.chunk.css",
-  "main.js": "/static/js/main.f80dd6ec.chunk.js",
-  "main.js.map": "/static/js/main.f80dd6ec.chunk.js.map",
+  "main.css": "/static/css/main.6eb8344a.chunk.css",
+  "main.js": "/static/js/main.d170247f.chunk.js",
+  "main.js.map": "/static/js/main.d170247f.chunk.js.map",
   "static/js/1.709b748b.chunk.js": "/static/js/1.709b748b.chunk.js",
   "static/js/1.709b748b.chunk.js.map": "/static/js/1.709b748b.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/Project.scss": "/static/media/snap-ninja.eab91ceb.png",
+  "static/media/Project.css": "/static/media/snap-ninja.eab91ceb.png",
   "static/media/App.scss": "/static/media/Desktop HD.947722ef.svg",
-  "static/media/Header.css": "/static/media/pwebsite.5203fe28.eot",
-  "static/css/main.fe59a66e.chunk.css.map": "/static/css/main.fe59a66e.chunk.css.map",
+  "static/media/Header.scss": "/static/media/pwebsite.5203fe28.eot",
+  "static/css/main.6eb8344a.chunk.css.map": "/static/css/main.6eb8344a.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.ac41c0826666a8f278fe542bc269766a.js": "/precache-manifest.ac41c0826666a8f278fe542bc269766a.js",
+  "precache-manifest.841ef01af089d4c19b03f00c3e6a5910.js": "/precache-manifest.841ef01af089d4c19b03f00c3e6a5910.js",
   "service-worker.js": "/service-worker.js"
 }
