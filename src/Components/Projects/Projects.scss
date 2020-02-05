@@ -12,7 +12,7 @@
     display: grid;
     grid-gap: 10px;
     width: 100%;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
     grid-template-columns: 180px repeat(5, 140px);
     h2 {
@@ -31,9 +31,7 @@
       background: #E11246;
       border-radius: 10px;
       transition: 0.3s;
-      will-change: transform;
-      padding: 0 5px;
-
+      padding: 0px 5px;
       &:hover {
         background-color: white;
         a {

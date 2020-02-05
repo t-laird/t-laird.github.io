@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Project.scss';
+import './Project.css';
 
 class Project extends Component {
   constructor() {
@@ -23,9 +23,9 @@ class Project extends Component {
     const iconClass = this.state.expanded ? 'icon-right-open rotate' : 'icon-right-open';
     const containerClass = this.state.expanded ? 'expanded' : '';
     return (
-      <div className={`projectDiv ${containerClass}`}>
+      <div className="projectDiv">
         <h2 onClick={this.handleClick}><i className={iconClass}></i> {title}</h2>
-        <div className="info-container">
+        <div className={`info-container ${containerClass}`}>
           <div 
             className={`screenshot ${aspectRatioOfsetClass}`}>
             <a href={link} target="_blank" rel="noopener noreferrer"> </a>
