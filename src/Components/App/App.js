@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import Header from '../Header/Header';
 import Routes from '../Routes/Routes';
-import { Route } from 'react-router';
+import { withRouter, Route } from 'react-router';
 
 
 class App extends Component {
@@ -16,4 +16,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(App);
