@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css';
+import './Projects.scss';
 import Project from '../Project/Project';
 
 
@@ -9,7 +9,7 @@ const Projects = (props) => {
       title: 'Snap Ninja',
       description: 'Snap Ninja was built with the importance of peer collaboration in mind. Fostering an environment where students pull each other up is a challenge, especially when it\'s a group of strangers who are suddenly thrown together as often happens at coding bootcamps. Snap Ninja helps bridge that gap by making shoutouts accessible and easy to do.',
       features: 'Snap Ninja features a customized backend built in express and with OAuth via AuthRocket. The frontend is built using React/Redux/Router, data visualization via VictoryJS and styled with SCSS.',
-      techStack: ['React', 'Redux', 'Router', 'VictoryJS', 'Express', 'PostgreSQL' ],
+      techStack: ['React', 'Redux', 'Router', 'VictoryJS', 'Express', 'PostgreSQL'],
       link: "https://t-laird.com/snap-ninja",
       repo: "https://github.com/t-laird/snap-ninja",
       aspectRatioOfsetClass: 'snap'
@@ -62,9 +62,9 @@ const Projects = (props) => {
 
   ];
 
-  const quicklinks = projectInfo.map(quicklink => {
+  const quicklinks = projectInfo.map((quicklink, index) => {
     return (
-      <div className="quicklink"><a href={quicklink.link} target="_blank" rel="noopener noreferrer">{quicklink.title}<i className="icon-link-ext"></i></a></div>
+      <div key={`quickLink${index}`} className="quicklink"><a href={quicklink.link} target="_blank" rel="noopener noreferrer">{quicklink.title}<i className="icon-link-ext"></i></a></div>
     );
   });
 
